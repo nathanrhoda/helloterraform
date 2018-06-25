@@ -1,5 +1,5 @@
 resource "aws_launch_configuration" "example" {
-  image_id        = "ami-2d39803a"
+  image_id        = "ami-14c5486b"
   instance_type   = "t2.micro"
   security_groups = ["${aws_security_group.instance.id}"]
 
